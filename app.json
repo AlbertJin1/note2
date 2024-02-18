@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "note2",
-    "slug": "note2",
+    "name": "Notepage",
+    "slug": "note",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.worthypeople.note"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aed28c5f-4251-4db4-98fd-c2ac6baa985e"
+      }
     }
   }
 }
